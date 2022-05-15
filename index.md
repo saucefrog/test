@@ -1,5 +1,4 @@
-<ul>
 {% for entry in site.data.test %}
-  <li>{{ entry.title }}-{{ entry.year }}-{{ entry.publisher }}</li>
+  <h3>{{ entry.title }}</h3>
+  <h4>{{ entry.year }}, {{ entry.publisher }}</h4>
 {% endfor %}
-</ul>
